@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<grocery>
+    <product>
+        <type>Butcher's</type>
+        <name>Chicken</name>
+        <price>6.50$</price>
+        <contests>Meat</contests>
+        <producer>Babushkino Lukoshko</producer>
+    </product>
+    <product>
+        <type>Butcher's</type>
+        <name>Ham</name>
+        <price>3.20$</price>
+        <contests>Meat</contests>
+        <producer>Babushkino Lukoshko</producer>
+    </product>
+    <product>
+        <type>Bakery</type>
+        <name>Baguet</name>
+        <price>2.10$</price>
+        <contests>Wheat</contests>
+        <producer>Bread Factory №3</producer>
+    </product>
+    <type>Bakery</type>
+    <name>White Bread</name>
+    <price>1.05$</price>
+    <contests>Wheat</contests>
+    <producer>Bread Factory №3</producer>
+</grocery>
