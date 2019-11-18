@@ -43,18 +43,6 @@ public class DomParser implements Parser{
                             .getTextContent());
 
 
-                    /*Node product = eElement.getElementsByTagName("product").item(0);
-                    Element productElement = (Element) product;
-                    NodeList priceList = productElement.getElementsByTagName("name");
-
-                    System.out.println("Catalog of prices: ");
-                    for (int j = 0; j < priceList.getLength(); j++) {
-                        Node priceNode = priceList.item(j);
-                        if (priceNode.getNodeType() == Node.ELEMENT_NODE) {
-                            Element priceElement = (Element) priceNode;
-                            System.out.println(priceElement.getTextContent());
-                        }
-                    }*/
                 }
             }
         } catch (Exception e) {
