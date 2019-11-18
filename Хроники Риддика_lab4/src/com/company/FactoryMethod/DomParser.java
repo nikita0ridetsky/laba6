@@ -35,26 +35,9 @@ public class DomParser implements Parser{
                     System.out.println("Price : " + eElement.getElementsByTagName("price")
                             .item(0)
                             .getTextContent());
-                    System.out.println("Contests : " + eElement.getElementsByTagName("contests")
-                            .item(0)
-                            .getTextContent());
-                    System.out.println("Producer : " + eElement.getElementsByTagName("producer")
-                            .item(0)
-                            .getTextContent());
+                 
 
 
-                    /*Node product = eElement.getElementsByTagName("product").item(0);
-                    Element productElement = (Element) product;
-                    NodeList priceList = productElement.getElementsByTagName("name");
-
-                    System.out.println("Catalog of prices: ");
-                    for (int j = 0; j < priceList.getLength(); j++) {
-                        Node priceNode = priceList.item(j);
-                        if (priceNode.getNodeType() == Node.ELEMENT_NODE) {
-                            Element priceElement = (Element) priceNode;
-                            System.out.println(priceElement.getTextContent());
-                        }
-                    }*/
                 }
             }
         } catch (Exception e) {
