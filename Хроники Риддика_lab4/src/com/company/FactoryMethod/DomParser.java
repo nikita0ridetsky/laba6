@@ -35,12 +35,7 @@ public class DomParser implements Parser{
                     System.out.println("Price : " + eElement.getElementsByTagName("price")
                             .item(0)
                             .getTextContent());
-                    System.out.println("Contests : " + eElement.getElementsByTagName("contests")
-                            .item(0)
-                            .getTextContent());
-                    System.out.println("Producer : " + eElement.getElementsByTagName("producer")
-                            .item(0)
-                            .getTextContent());
+                 
 
 
                 }
